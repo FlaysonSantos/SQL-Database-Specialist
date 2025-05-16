@@ -6,7 +6,7 @@ Vamos agora criar o banco de dados da empresa que utilizaremos como exemplo nas 
 Você pode baixar o script da criação das tabelas e inserção das linhas do banco de dados da empresa.
 
 
-Link para download do arquivo empresa.sql[empresa.sql]()
+Link para download do arquivo [empresa.sql](https://github.com/FlaysonSantos/SQL-Database-Specialist/blob/main/TREINAMENTO/Consultas%20com%20o%20comando%20SELECT/modelagem%20banco%20de%20dados/EMPRESA.sql)
 
 
 O modelo de dados da empresa é apresentado a seguir.
