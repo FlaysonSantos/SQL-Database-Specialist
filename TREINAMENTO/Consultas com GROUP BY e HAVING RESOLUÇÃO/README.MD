@@ -6,14 +6,14 @@
 
 ## Roteiro de prática ##
 
-- Execute comandos seguindo as seguintes diretrizes:
+Execute comandos seguindo as seguintes diretrizes:
 
 
-. Retornando cargos de emprego.
-. Uso de DISTINCT.
-. Uso de GROUP BY.
-. Filtrar grupo com WHERE.
-. Filtrar grupo com HAVING.
-. Ordenando a consulta.
+- Retornando cargos de emprego.
+-  Uso de DISTINCT.
+-  Uso de GROUP BY.
+-  Filtrar grupo com WHERE.
+-  Filtrar grupo com HAVING.
+- Ordenando a consulta.
 
 
