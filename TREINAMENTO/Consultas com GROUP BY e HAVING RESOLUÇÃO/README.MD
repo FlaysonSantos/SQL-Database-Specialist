@@ -16,4 +16,4 @@ Execute comandos seguindo as seguintes diretrizes:
 -  Filtrar grupo com HAVING.
 - Ordenando a consulta.
 
-
+Consulte os dados da criação da [Tabela aqui](https://github.com/FlaysonSantos/SQL-Database-Specialist/blob/main/TREINAMENTO/Consultas%20com%20GROUP%20BY%20e%20HAVING%20RESOLU%C3%87%C3%83O/DADOS%20SQL/dados.sql)
