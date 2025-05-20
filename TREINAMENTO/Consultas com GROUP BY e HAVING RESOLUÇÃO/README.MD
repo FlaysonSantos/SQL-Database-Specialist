@@ -24,7 +24,7 @@ Consulte os dados da criação da [Tabela aqui](https://github.com/FlaysonSantos
 
 SELECT CARGO  FROM EMPREGADO
 
-Uso de DISTINCT
+- Uso de DISTINCT
 
 SELECT DISTINCT CARGO  
 FROM EMPREGADO
