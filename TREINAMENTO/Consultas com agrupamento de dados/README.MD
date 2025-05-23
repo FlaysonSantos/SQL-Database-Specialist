@@ -8,9 +8,26 @@
 
 ## Iremos execultar os seguintes comandos de consulta:
 
-- Listar a área média com o alias 'Área média', e número de salões com o alias 'Total de salões’
-- Listar o estilo e o total de pinturas do estilo com o alias 'Quantidade de pinturas'.
-- Listar o estilo e o total de pinturas do estilo com o alias 'Quantidade de pinturas' para os estilos diferentes de cubista.
+ - 'Listar a área média com o alias 'Área média', e número de salões com o alias 'Total de salões’'
+ 
+ >>SELECT * FROM SALOES
+ >>SELECT AVG(AREA) AS "Área média", COUNT(*) AS "Total de salões" FROM SALOES
+
+- 'Listar o estilo e o total de pinturas do estilo com o alias 'Quantidade de pinturas'.
+
+>> SELECT * FROM PINTURAS
+>> SELECT ESTILO, COUNT(*) AS "Quantidade de pinturas" FROM PINTURAS GROUP BY ESTILO
+
+- Listar o estilo e o total de pinturas do estilo com o alias 'Quantidade de pinturas' para os estilos diferentes de cubista.'
+
+>> SELECT ESTILO, COUNT(*) AS "Quantidade de pinturas" FROM PINTURAS WHERE (ESTILO) <> 'CUBISTA' GROUP BY ESTILO
+
 - Listar o estilo e o total de pinturas do estilo com o alias 'Quantidade de pinturas' para os estilos diferentes de cubista e com pelo menos duas pinturas.
-- Listar os diferentes estilos de pintura.
+
+>> SELECT ESTILO, COUNT(*) AS "Quantidade de pinturas" FROM PINTURAS WHERE (ESTILO) <> 'CUBISTA' GROUP BY ESTILO  HAVING COUNT(*) >=2
+
+
+- Listar os diferentes estilos de pintura.'
+
+>> SELECT DISTINCT ESTILO FROM PINTURAS 
 
