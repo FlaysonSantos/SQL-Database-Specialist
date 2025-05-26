@@ -2,7 +2,7 @@
 
 Vamos criar o banco de dados do museu que utilizaremos nas nossas demonstrações e, em seguida, iremos executar alguns comandos com junção interna.
 
-- confira o codigo do [Modelo aqui "Museu.sql"]()
+- confira o codigo do [Modelo aqui "Museu.sql"](https://github.com/FlaysonSantos/SQL-Database-Specialist/blob/main/TREINAMENTO/Consultas%20envolvendo%20jun%C3%A7%C3%B5es%20interior%20e%20exterior/dados/museu.sql)
 
 Vejamos o modelo lógico de banco de dados do minimundo MUSEU!
 
