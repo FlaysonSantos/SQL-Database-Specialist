@@ -58,6 +58,50 @@ FROM EMPREGADO E  FULL JOIN  CLIENTE C  ON  C.VENDEDOR = E.ID
 ```
 
 
+## 📚 O que são LEFT JOIN, RIGHT JOIN e FULL JOIN?
+
+Em SQL, junções (joins) são usadas para combinar registros de duas ou mais tabelas com base em uma condição lógica. As junções externas são particularmente úteis quando você quer incluir registros mesmo que não haja correspondência entre as tabelas.
+
+🔹 LEFT JOIN (Junção Externa à Esquerda)
+O LEFT JOIN retorna todos os registros da tabela à esquerda (a primeira tabela) e os registros correspondentes da tabela à direita (a segunda tabela).
+Se não houver correspondência, os campos da tabela da direita serão preenchidos com NULL.
+
+Exemplo:
+
+```sql
+SELECT *
+FROM EMPREGADO E
+LEFT JOIN CLIENTE C ON C.VENDEDOR = E.ID;
+```
+📌 Usado quando: você quer todos os empregados, mesmo que não atendam nenhum cliente.
+
+🔸 RIGHT JOIN (Junção Externa à Direita)
+O RIGHT JOIN faz o oposto do LEFT JOIN: retorna todos os registros da tabela à direita e os correspondentes da tabela à esquerda.
+Se não houver correspondência, os campos da tabela da esquerda serão preenchidos com NULL.
+
+Exemplo:
+```sql
+SELECT *
+FROM EMPREGADO E
+RIGHT JOIN CLIENTE C ON C.VENDEDOR = E.ID;
+```
+📌 Usado quando: você quer todos os clientes, mesmo que não tenham empregado associado.
+
+🔁 FULL JOIN (Junção Externa Completa)
+O FULL JOIN combina o comportamento do LEFT e do RIGHT JOIN: retorna todos os registros de ambas as tabelas, e combina os que têm correspondência.
+Quando não há correspondência, os campos da tabela que não tem o dado são preenchidos com NULL.
+
+Exemplo:
+```sql
+SELECT *
+FROM EMPREGADO E
+FULL JOIN CLIENTE C ON C.VENDEDOR = E.ID;
+```
+📌 Usado quando: você quer ver todos os empregados e todos os clientes, independentemente de terem vínculo entre si.
+
+
+
+
 ✍️ Autor
 Flayson Santos
 GitHub: [FlaysonSantos](https://github.com/FlaysonSantos/)
